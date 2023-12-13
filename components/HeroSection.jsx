@@ -5,10 +5,18 @@ import Link from "next/link";
 import dynamic from "next/dynamic";
 import { Inter } from "next/font/google";
 import Image from "next/image";
+import { useState } from 'react';
 
 const inter = Inter({ weight: ['400', '900'], subsets: ['latin'] })
 
+
+
 const HeroSection = () => {
+  const [isHovered, setIsHovered] = useState(false);
+
+  const handleHover = () => {
+    setIsHovered(!isHovered);
+  };
     return (
       <main className="pb-6 mt-10 md-flex md:shrink-0 mx-14">
         <div className={` grid grid-cols-1 md:grid-cols-12 ${inter.className}`}>
@@ -76,9 +84,9 @@ const HeroSection = () => {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5 }}
             >
-            <div className="w-[400px] h-[400px] relative z-0">
+            <div className="w-[400px] h-[400px] relative z-0" onMouseEnter={handleHover} onMouseLeave={handleHover}>
               <Image
-                src="/IMG_0907.jpg"
+                src={isHovered ? "/852364.jpeg" : "/IMG_0907.jpg"}
                 alt="hero section"
                 className=" transform rounded-full flex relative -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
                 width={450}
