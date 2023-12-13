@@ -72,10 +72,10 @@ const HeroSection = () => {
                
                 <Link
                   href="https://1drv.ms/b/s!AvVuNuuHYjNrwQtiMZY9GprLwqAY?e=0NHRyQ"
-                  className="px-6 inline-block py-3 rounded-full mr-4 border-solid border-2  border-white hover:bg-white"
+                  className="px-6 inline-block py-3 rounded-full mr-4 border-solid border-2  border-white hover:bg-white hover:text-black text-xl text-white"
                   target="_blank" rel="noopener noreferrer"
                   >
-                  <span className="text-xl text-white hover:text-black">View my Resume</span>
+                  View my Resume
                 </Link>
             </motion.div>
           <div className="col-span-4 md:col-span-4 place-self-center mt-12 lg:mt-0 pt-0 lg:pt-2 lg:pb-16">
