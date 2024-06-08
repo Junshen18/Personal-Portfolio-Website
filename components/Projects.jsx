@@ -26,7 +26,7 @@ const projectData = [
     id: 3,
     title: "Quiz Website",
     description: "Quiz website that is like Quizzeria using React and Flask",
-    image: "/projects/FundChat.png",
+    image: "/projects/SDP.png",
     gitUrl:
       "https://github.com/Seann2003/Quiz-Website---React-and-Flask-Backend",
   },
