@@ -47,10 +47,10 @@ const HeroSection = () => {
                     .typeString`<span style="color:#9E7BFF">Software Engineer</span>`
                     .pauseFor(1500)
                     .deleteAll()
-                    .typeString`<span style="color:#893BFF">Part Time Artist</span>`
+                    .typeString`<span style="color:#893BFF">UI/UX Designer</span>`
                     .pauseFor(1500)
                     .deleteAll()
-                    .typeString`<span style="color:#893BFF">Flutter Mobile Developer</span>`
+                    .typeString`<span style="color:#893BFF">Mobile Developer</span>`
                     .pauseFor(1500)
                     .deleteAll()
                     .start();
