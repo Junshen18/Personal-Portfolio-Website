@@ -37,6 +37,14 @@ const projectData = [
     image: "/projects/Gamebooster.png",
     gitUrl: "",
   },
+  {
+    id: 5,
+    title: "Mobile Habit Tracker",
+    description:
+      "A habit tracker/to-do list that shows a green tracker map like github using Flutter",
+    image: "/projects/habit-tracker.png",
+    gitUrl: "https://github.com/Junshen18/habit_tracker",
+  },
 ];
 
 const Projects = () => {
