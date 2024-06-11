@@ -45,6 +45,14 @@ const projectData = [
     image: "/projects/habit-tracker.png",
     gitUrl: "https://github.com/Junshen18/habit_tracker",
   },
+  {
+    id: 6,
+    title: "Tenant Management System",
+    description:
+      "A Tenant Management System for rental business management with tiered user authorizations and detailed record-keeping using Python.",
+    image: "/projects/TMS.png",
+    gitUrl: "https://github.com/Junshen18/Python-Assignment",
+  },
 ];
 
 const Projects = () => {
