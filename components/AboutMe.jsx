@@ -39,7 +39,9 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <ul className="list-disc pl-2  grid grid-cols-3 ">{technologyList}</ul>
+      <ul className="list-disc pl-2 grid grid-cols-2 md:grid-cols-3 ">
+        {technologyList}
+      </ul>
     ),
   },
   {
@@ -80,13 +82,11 @@ const AboutMe = () => {
   //1a
   return (
     <section className={`text-white ${quicksand.className} grid `} id="aboutMe">
-      <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-8 md:px-32 py-16 xl-gap-16 items-center">
-        <div className="place-self-center">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:px-32 py-16 items-center">
+        <div className="place-self-center w-[300px] h-[375px] md:w-[450px] md:h-[562px]">
           <img
             src="/aboutme.jpg"
             alt="About Me"
-            width={450}
-            height={450}
             style={{ borderRadius: "25px" }}
           />
         </div>
