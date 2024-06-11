@@ -76,6 +76,7 @@ const Background = () => {
     <div>
       <div className="bouncing-blobs-container">
         <div className="bouncing-blobs-glass"></div>
+
         <div className="bouncing-blobs">
           <div className="bouncing-blob bouncing-blob--blue"></div>
           <div className="bouncing-blob bouncing-blob--purple"></div>

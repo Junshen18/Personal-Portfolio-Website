@@ -27,14 +27,14 @@ const HeroSection = () => {
         >
           <h1 className="font-extrabold">
             {/* span text seperator -- for design*/}
-            <span className="text-white text-7xl">
+            <span className="text-white text-7xl md:text-5xl sm:text-7xl">
               Hello, I&apos;m{" "}
               <span className="text-transparent bg-clip-text sm:text-8xl md:text-8xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
                 Jun Shen
               </span>
             </span>
             <br></br>
-            <span className="text-6xl">
+            <span className="text-6xl md:text-5xl">
               I&apos;m a
               <TypeWritter
                 options={{
@@ -78,14 +78,14 @@ const HeroSection = () => {
           </div>
         </motion.div>
 
-        <div className="col-span-4 md:col-span-4 place-self-center mt-12 lg:mt-0 pt-0 lg:pt-2 lg:pb-16">
+        <div className="col-span-4 md:col-span-4 place-self-center mt-12 lg:mt-0 pt-0 lg:pt-2 lg:pb-16  ">
           <motion.div
             initial={{ opacity: 0, scale: 0.5 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5 }}
           >
             <div
-              className="w-[400px] h-[400px] relative z-0"
+              className="lg:w-[400px] lg:h-[400px] relative z-0 md:w-[300px] md:h-[300px] h-[400px] w-[400px] "
               onMouseEnter={handleHover}
               onMouseLeave={handleHover}
             >

@@ -49,7 +49,7 @@ const projectData = [
 
 const Projects = () => {
   return (
-    <div id="projects" className={`w-[90%] ml-14 ${quicksand.className}`}>
+    <div id="projects" className={`w-[80%] mx-14 ${quicksand.className}`}>
       <div className="text-4xl font-semibold mb-8">My Projects</div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 grid-rows-2 gap-x-8 gap-y-20 md:gap-12 h-full">
         {projectData.map((project) => (
