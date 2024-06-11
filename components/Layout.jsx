@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Navbar";
 import { Inter } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const inter = Inter({ weight: ["600"], subsets: ["latin"] });
 
