@@ -17,6 +17,7 @@ const HeroSection = () => {
   };
   return (
     <main className="pb-6 mt-10 md-flex md:shrink-0 mx-14">
+      {/* <div className="static h-24"></div> */}
       <div className={` grid grid-cols-1 md:grid-cols-12 ${inter.className}`}>
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
@@ -76,6 +77,7 @@ const HeroSection = () => {
             </a>
           </div>
         </motion.div>
+
         <div className="col-span-4 md:col-span-4 place-self-center mt-12 lg:mt-0 pt-0 lg:pt-2 lg:pb-16">
           <motion.div
             initial={{ opacity: 0, scale: 0.5 }}
