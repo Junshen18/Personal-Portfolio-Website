@@ -72,6 +72,7 @@ const Projects = () => {
             gitUrl={project.gitUrl}
           />
         ))}
+        <div className="text-2xl">More coming...</div>
       </div>
     </div>
   );
